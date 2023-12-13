@@ -8,13 +8,13 @@ namespace PetReviewApp
         private readonly DataContext dataContext;
         public Seed(DataContext context)
         {
-            this.dataContext = context;
+            dataContext = context;
         }
         public void SeedDataContext()
         {
             if (!dataContext.PetOwners.Any())
             {
-                var pokemonOwners = new List<PetOwner>()
+                var petOwners = new List<PetOwner>()
                 {
                     new PetOwner()
                     {
@@ -39,11 +39,11 @@ namespace PetReviewApp
                         Owner = new Owner()
                         {
                             FirstName = "Jack",
-                            LastName = "London",
-                            City = "Brocks Gym",
+                            LastName = "Stephan",
+                            City = "Paris",
                             Country = new Country()
                             {
-                                Name = "Kanto"
+                                Name = "France"
                             }
                         }
                     },
@@ -51,66 +51,66 @@ namespace PetReviewApp
                     {
                         Pet = new Pet()
                         {
-                            Name = "Squirtle",
-                            BirthDate = new DateTime(1903,1,1),
+                            Name = "Max",
+                            BirthDate = new DateTime(2015,5,7),
                             PetCategories = new List<PetCategory>()
                             {
-                                new PetCategory { Category = new Category() { Name = "Water"}}
+                                new PetCategory { Category = new Category() { Name = "Cat"}}
                             },
                             Reviews = new List<Review>()
                             {
-                                new Review { Title= "Squirtle", Text = "squirtle is the best pokemon, because it is electric", Rating = 5,
+                                new Review { Title= "Max", Text = "Max is the best, because it is a cat", Rating = 5,
                                 Reviewer = new Reviewer(){ FirstName = "Teddy", LastName = "Smith" } },
-                                new Review { Title= "Squirtle",Text = "Squirtle is the best a killing rocks", Rating = 5,
+                                new Review { Title= "Max",Text = "Max is the best", Rating = 5,
                                 Reviewer = new Reviewer(){ FirstName = "Taylor", LastName = "Jones" } },
-                                new Review { Title= "Squirtle", Text = "squirtle, squirtle, squirtle", Rating = 1,
+                                new Review { Title= "Max", Text = "Max, Max, Max", Rating = 2,
                                 Reviewer = new Reviewer(){ FirstName = "Jessica", LastName = "McGregor" } },
                             }
                         },
                         Owner = new Owner()
                         {
                             FirstName = "Harry",
-                            LastName = "Potter",
-                            City = "Mistys Gym",
+                            LastName = "Klose",
+                            City = "Toronto",
                             Country = new Country()
                             {
-                                Name = "Saffron City"
+                                Name = "Canada"
                             }
                         }
                     },
-                                    new PetOwner()
+                    new PetOwner()
                     {
                         Pet = new Pet()
                         {
-                            Name = "Venasuar",
-                            BirthDate = new DateTime(1903,1,1),
+                            Name = "Luna",
+                            BirthDate = new DateTime(2016,7,10),
                             PetCategories = new List<PetCategory>()
                             {
-                                new PetCategory { Category = new Category() { Name = "Leaf"}}
+                                new PetCategory { Category = new Category() { Name = "Bird"}}
                             },
                             Reviews = new List<Review>()
                             {
-                                new Review { Title="Veasaur",Text = "Venasuar is the best pokemon, because it is electric", Rating = 5,
+                                new Review { Title="Luna",Text = "Luna is the best, because it is a bird", Rating = 5,
                                 Reviewer = new Reviewer(){ FirstName = "Teddy", LastName = "Smith" } },
-                                new Review { Title="Veasaur",Text = "Venasuar is the best a killing rocks", Rating = 5,
+                                new Review { Title="Luna",Text = "Luna is the best", Rating = 5,
                                 Reviewer = new Reviewer(){ FirstName = "Taylor", LastName = "Jones" } },
-                                new Review { Title="Veasaur",Text = "Venasuar, Venasuar, Venasuar", Rating = 1,
+                                new Review { Title="Luna",Text = "Luna, Luna, Luna", Rating = 1,
                                 Reviewer = new Reviewer(){ FirstName = "Jessica", LastName = "McGregor" } },
                             }
                         },
                         Owner = new Owner()
                         {
-                            FirstName = "Ash",
-                            LastName = "Ketchum",
-                            City = "Ashs Gym",
+                            FirstName = "Daisy",
+                            LastName = "Charlie",
+                            City = "London",
                             Country = new Country()
                             {
-                                Name = "Millet Town"
+                                Name = "England"
                             }
                         }
                     }
                 };
-                dataContext.PetOwners.AddRange(pokemonOwners);
+                dataContext.PetOwners.AddRange(petOwners);
                 dataContext.SaveChanges();
             }
         }

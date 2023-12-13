@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eac+58QkS7H2kkeKHjy1XKtmrbIeNCVfnwxUdpT1kDN3iXAyGJWVCqC+FFUQ5ppk6DhgDaCaZ87bu4Rsq87rlA==",
+  "dgSpecHash": "lJDxDn/pnFIem9yYD0iM/f2F/p1SgzFiJuy9bYWn0YJbhPs6+iJeY0A2a1Gb9DFSY5Pv2fz79bcvSSumHVlVZg==",
   "success": true,
   "projectFilePath": "C:\\workspace\\Estudo\\.net\\PetReviewApp\\PetReviewApp\\PetReviewApp.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.1\\microsoft.entityframeworkcore.design.6.0.1.nupkg.sha512",
     "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.1\\microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
     "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.1\\microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",
+    "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.1\\microsoft.entityframeworkcore.tools.6.0.1.nupkg.sha512",
     "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\rafael.agomes\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
