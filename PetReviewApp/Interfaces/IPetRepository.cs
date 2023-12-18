@@ -4,6 +4,11 @@ namespace PetReviewApp.Interfaces
 {
     public interface IPetRepository
     {
-        public ICollection<Pet> GetPets();
+        ICollection<Pet> GetPets();
+        Pet GetPet(int id);
+        Pet GetPet(string name);
+        double GetPetRating(int id);
+        bool PetExists(int id);
     }
 }
+ 

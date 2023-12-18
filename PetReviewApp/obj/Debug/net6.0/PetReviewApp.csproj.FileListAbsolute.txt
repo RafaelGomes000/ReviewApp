@@ -73,3 +73,5 @@ C:\workspace\Estudo\.net\PetReviewApp\PetReviewApp\bin\Debug\net6.0\Microsoft.Do
 C:\workspace\Estudo\.net\PetReviewApp\PetReviewApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\workspace\Estudo\.net\PetReviewApp\PetReviewApp\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 C:\workspace\Estudo\.net\PetReviewApp\PetReviewApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\workspace\Estudo\.net\PetReviewApp\PetReviewApp\bin\Debug\net6.0\AutoMapper.dll
+C:\workspace\Estudo\.net\PetReviewApp\PetReviewApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
