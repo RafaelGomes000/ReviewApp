@@ -20,7 +20,7 @@ namespace PetReviewApp.Repository
 
         public Category GetCategory(int id)
         {
-            return _dataContext.Categories.Where(x => x.Id == id).FirstOrDefault();
+            return _dataContext.Categories.FirstOrDefault(x => x.Id == id);
         }
 
         public ICollection<Pet> GetPetByCategory(int id)

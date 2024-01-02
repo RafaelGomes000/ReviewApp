@@ -20,15 +20,15 @@ namespace PetReviewApp.Repository
 
         public Pet GetPet(int id)
         {
-            return _dataContext.Pets.Where(x => x.Id == id).FirstOrDefault();
+            return _dataContext.Pets.FirstOrDefault(x => x.Id == id);
         }
 
         public Pet GetPet(string name)
         {
-            return _dataContext.Pets.Where(x => x.Name == name).FirstOrDefault();
+            return _dataContext.Pets.FirstOrDefault(x => x.Name == name);
         }
 
-        public double GetPetRating(int id)
+        public int GetPetRating(int id)
         {
             var review = _dataContext.Reviews.Where(x => x.Pet.Id == id);
 

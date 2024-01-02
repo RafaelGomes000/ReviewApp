@@ -7,7 +7,7 @@ namespace PetReviewApp.Interfaces
         ICollection<Pet> GetPets();
         Pet GetPet(int id);
         Pet GetPet(string name);
-        double GetPetRating(int id);
+        int GetPetRating(int id);
         bool PetExists(int id);
     }
 }
